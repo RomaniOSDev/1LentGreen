@@ -3,33 +3,65 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 60;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		7466AABE2F50963E0051ACF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7466AAA62F50963E0051ACF0 /* Assets.xcassets */; };
+		7466AAC02F50963E0051ACF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7466AAAD2F50963E0051ACF0 /* LaunchScreen.storyboard */; };
+		7466AAC12F50963E0051ACF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7466AAB32F50963E0051ACF0 /* Main.storyboard */; };
+		7466AAC22F50963E0051ACF0 /* AddDebtView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7466AAA32F50963E0051ACF0 /* AddDebtView.swift */; };
+		7466AAC32F50963E0051ACF0 /* AppActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7466AAA42F50963E0051ACF0 /* AppActions.swift */; };
+		7466AAC42F50963E0051ACF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7466AAA52F50963E0051ACF0 /* AppDelegate.swift */; };
+		7466AAC52F50963E0051ACF0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7466AAA72F50963E0051ACF0 /* ContentView.swift */; };
+		7466AAC62F50963E0051ACF0 /* DebtDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7466AAA82F50963E0051ACF0 /* DebtDetailView.swift */; };
+		7466AAC72F50963E0051ACF0 /* DebtListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7466AAA92F50963E0051ACF0 /* DebtListView.swift */; };
+		7466AAC82F50963E0051ACF0 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7466AAAA2F50963E0051ACF0 /* HomeView.swift */; };
+		7466AAC92F50963E0051ACF0 /* LentGreenComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7466AAAE2F50963E0051ACF0 /* LentGreenComponents.swift */; };
+		7466AACA2F50963E0051ACF0 /* LentGreenNotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7466AAAF2F50963E0051ACF0 /* LentGreenNotificationService.swift */; };
+		7466AACB2F50963E0051ACF0 /* LentGreenTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7466AAB02F50963E0051ACF0 /* LentGreenTheme.swift */; };
+		7466AACC2F50963E0051ACF0 /* LentGreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7466AAB12F50963E0051ACF0 /* LentGreenViewModel.swift */; };
+		7466AACD2F50963E0051ACF0 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7466AAB42F50963E0051ACF0 /* Models.swift */; };
+		7466AACE2F50963E0051ACF0 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7466AAB52F50963E0051ACF0 /* OnboardingView.swift */; };
+		7466AACF2F50963E0051ACF0 /* PeopleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7466AAB62F50963E0051ACF0 /* PeopleView.swift */; };
+		7466AAD02F50963E0051ACF0 /* QuickAddDebtView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7466AAB72F50963E0051ACF0 /* QuickAddDebtView.swift */; };
+		7466AAD12F50963E0051ACF0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7466AAB82F50963E0051ACF0 /* SceneDelegate.swift */; };
+		7466AAD22F50963E0051ACF0 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7466AAB92F50963E0051ACF0 /* SettingsView.swift */; };
+		7466AAD32F50963E0051ACF0 /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7466AABA2F50963E0051ACF0 /* StatsView.swift */; };
+		7466AAD42F50963E0051ACF0 /* TemplatesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7466AABB2F50963E0051ACF0 /* TemplatesListView.swift */; };
+		7466AAD52F50963E0051ACF0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7466AABC2F50963E0051ACF0 /* ViewController.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		1C3FBFD7B91DF7C5A4F22251 /* Pods_1LentGreen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_1LentGreen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E4A5EB9C67CA385E5995A1F /* Pods-1LentGreen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-1LentGreen.debug.xcconfig"; path = "Target Support Files/Pods-1LentGreen/Pods-1LentGreen.debug.xcconfig"; sourceTree = "<group>"; };
+		21C44933E25AFDD8A1196000 /* Pods-1LentGreen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-1LentGreen.release.xcconfig"; path = "Target Support Files/Pods-1LentGreen/Pods-1LentGreen.release.xcconfig"; sourceTree = "<group>"; };
+		7466AAA32F50963E0051ACF0 /* AddDebtView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDebtView.swift; sourceTree = "<group>"; };
+		7466AAA42F50963E0051ACF0 /* AppActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppActions.swift; sourceTree = "<group>"; };
+		7466AAA52F50963E0051ACF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7466AAA62F50963E0051ACF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7466AAA72F50963E0051ACF0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7466AAA82F50963E0051ACF0 /* DebtDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebtDetailView.swift; sourceTree = "<group>"; };
+		7466AAA92F50963E0051ACF0 /* DebtListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebtListView.swift; sourceTree = "<group>"; };
+		7466AAAA2F50963E0051ACF0 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		7466AAAB2F50963E0051ACF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7466AAAC2F50963E0051ACF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7466AAAE2F50963E0051ACF0 /* LentGreenComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LentGreenComponents.swift; sourceTree = "<group>"; };
+		7466AAAF2F50963E0051ACF0 /* LentGreenNotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LentGreenNotificationService.swift; sourceTree = "<group>"; };
+		7466AAB02F50963E0051ACF0 /* LentGreenTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LentGreenTheme.swift; sourceTree = "<group>"; };
+		7466AAB12F50963E0051ACF0 /* LentGreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LentGreenViewModel.swift; sourceTree = "<group>"; };
+		7466AAB22F50963E0051ACF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7466AAB42F50963E0051ACF0 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		7466AAB52F50963E0051ACF0 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		7466AAB62F50963E0051ACF0 /* PeopleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleView.swift; sourceTree = "<group>"; };
+		7466AAB72F50963E0051ACF0 /* QuickAddDebtView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickAddDebtView.swift; sourceTree = "<group>"; };
+		7466AAB82F50963E0051ACF0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7466AAB92F50963E0051ACF0 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		7466AABA2F50963E0051ACF0 /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		7466AABB2F50963E0051ACF0 /* TemplatesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplatesListView.swift; sourceTree = "<group>"; };
+		7466AABC2F50963E0051ACF0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		749380C92F4A18D200624469 /* 1LentGreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 1LentGreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		749380DB2F4A18D400624469 /* Exceptions for "1LentGreen" folder in "1LentGreen" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 749380C82F4A18D200624469 /* 1LentGreen */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		749380CB2F4A18D200624469 /* 1LentGreen */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				749380DB2F4A18D400624469 /* Exceptions for "1LentGreen" folder in "1LentGreen" target */,
-			);
-			path = 1LentGreen;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		749380C62F4A18D200624469 /* Frameworks */ = {
@@ -42,11 +74,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D967D66942B7445EF2D94E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1C3FBFD7B91DF7C5A4F22251 /* Pods_1LentGreen.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7466AABD2F50963E0051ACF0 /* 1LentGreen */ = {
+			isa = PBXGroup;
+			children = (
+				7466AAA32F50963E0051ACF0 /* AddDebtView.swift */,
+				7466AAA42F50963E0051ACF0 /* AppActions.swift */,
+				7466AAA52F50963E0051ACF0 /* AppDelegate.swift */,
+				7466AAA62F50963E0051ACF0 /* Assets.xcassets */,
+				7466AAA72F50963E0051ACF0 /* ContentView.swift */,
+				7466AAA82F50963E0051ACF0 /* DebtDetailView.swift */,
+				7466AAA92F50963E0051ACF0 /* DebtListView.swift */,
+				7466AAAA2F50963E0051ACF0 /* HomeView.swift */,
+				7466AAAB2F50963E0051ACF0 /* Info.plist */,
+				7466AAAD2F50963E0051ACF0 /* LaunchScreen.storyboard */,
+				7466AAAE2F50963E0051ACF0 /* LentGreenComponents.swift */,
+				7466AAAF2F50963E0051ACF0 /* LentGreenNotificationService.swift */,
+				7466AAB02F50963E0051ACF0 /* LentGreenTheme.swift */,
+				7466AAB12F50963E0051ACF0 /* LentGreenViewModel.swift */,
+				7466AAB32F50963E0051ACF0 /* Main.storyboard */,
+				7466AAB42F50963E0051ACF0 /* Models.swift */,
+				7466AAB52F50963E0051ACF0 /* OnboardingView.swift */,
+				7466AAB62F50963E0051ACF0 /* PeopleView.swift */,
+				7466AAB72F50963E0051ACF0 /* QuickAddDebtView.swift */,
+				7466AAB82F50963E0051ACF0 /* SceneDelegate.swift */,
+				7466AAB92F50963E0051ACF0 /* SettingsView.swift */,
+				7466AABA2F50963E0051ACF0 /* StatsView.swift */,
+				7466AABB2F50963E0051ACF0 /* TemplatesListView.swift */,
+				7466AABC2F50963E0051ACF0 /* ViewController.swift */,
+			);
+			path = 1LentGreen;
+			sourceTree = "<group>";
+		};
+		74930E82499041A8A4C0A7CB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1E4A5EB9C67CA385E5995A1F /* Pods-1LentGreen.debug.xcconfig */,
+				21C44933E25AFDD8A1196000 /* Pods-1LentGreen.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		749380C02F4A18D200624469 = {
 			isa = PBXGroup;
 			children = (
-				749380CB2F4A18D200624469 /* 1LentGreen */,
+				7466AABD2F50963E0051ACF0 /* 1LentGreen */,
 				749380CA2F4A18D200624469 /* Products */,
+				74930E82499041A8A4C0A7CB /* Pods */,
+				4D967D66942B7445EF2D94E8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,6 +147,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 749380DC2F4A18D400624469 /* Build configuration list for PBXNativeTarget "1LentGreen" */;
 			buildPhases = (
+				06630B745FC4BE20ABB6FDB6 /* [CP] Check Pods Manifest.lock */,
 				749380C52F4A18D200624469 /* Sources */,
 				749380C62F4A18D200624469 /* Frameworks */,
 				749380C72F4A18D200624469 /* Resources */,
@@ -73,12 +156,7 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				749380CB2F4A18D200624469 /* 1LentGreen */,
-			);
 			name = 1LentGreen;
-			packageProductDependencies = (
-			);
 			productName = 1LentGreen;
 			productReference = 749380C92F4A18D200624469 /* 1LentGreen.app */;
 			productType = "com.apple.product-type.application";
@@ -99,6 +177,7 @@
 				};
 			};
 			buildConfigurationList = 749380C42F4A18D200624469 /* Build configuration list for PBXProject "1LentGreen" */;
+			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -106,8 +185,6 @@
 				Base,
 			);
 			mainGroup = 749380C02F4A18D200624469;
-			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 749380CA2F4A18D200624469 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -122,24 +199,92 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7466AABE2F50963E0051ACF0 /* Assets.xcassets in Resources */,
+				7466AAC02F50963E0051ACF0 /* LaunchScreen.storyboard in Resources */,
+				7466AAC12F50963E0051ACF0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06630B745FC4BE20ABB6FDB6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-1LentGreen-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		749380C52F4A18D200624469 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7466AAC22F50963E0051ACF0 /* AddDebtView.swift in Sources */,
+				7466AAC32F50963E0051ACF0 /* AppActions.swift in Sources */,
+				7466AAC42F50963E0051ACF0 /* AppDelegate.swift in Sources */,
+				7466AAC52F50963E0051ACF0 /* ContentView.swift in Sources */,
+				7466AAC62F50963E0051ACF0 /* DebtDetailView.swift in Sources */,
+				7466AAC72F50963E0051ACF0 /* DebtListView.swift in Sources */,
+				7466AAC82F50963E0051ACF0 /* HomeView.swift in Sources */,
+				7466AAC92F50963E0051ACF0 /* LentGreenComponents.swift in Sources */,
+				7466AACA2F50963E0051ACF0 /* LentGreenNotificationService.swift in Sources */,
+				7466AACB2F50963E0051ACF0 /* LentGreenTheme.swift in Sources */,
+				7466AACC2F50963E0051ACF0 /* LentGreenViewModel.swift in Sources */,
+				7466AACD2F50963E0051ACF0 /* Models.swift in Sources */,
+				7466AACE2F50963E0051ACF0 /* OnboardingView.swift in Sources */,
+				7466AACF2F50963E0051ACF0 /* PeopleView.swift in Sources */,
+				7466AAD02F50963E0051ACF0 /* QuickAddDebtView.swift in Sources */,
+				7466AAD12F50963E0051ACF0 /* SceneDelegate.swift in Sources */,
+				7466AAD22F50963E0051ACF0 /* SettingsView.swift in Sources */,
+				7466AAD32F50963E0051ACF0 /* StatsView.swift in Sources */,
+				7466AAD42F50963E0051ACF0 /* TemplatesListView.swift in Sources */,
+				7466AAD52F50963E0051ACF0 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		7466AAAD2F50963E0051ACF0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7466AAAC2F50963E0051ACF0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		7466AAB32F50963E0051ACF0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7466AAB22F50963E0051ACF0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		749380DD2F4A18D400624469 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E4A5EB9C67CA385E5995A1F /* Pods-1LentGreen.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -147,30 +292,37 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 1LentGreen/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Beflepa LentGreen";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mycompany.-LentGreen";
+				PRODUCT_BUNDLE_IDENTIFIER = com.har.b3fl3n7gr5n;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		749380DE2F4A18D400624469 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21C44933E25AFDD8A1196000 /* Pods-1LentGreen.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -178,25 +330,31 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 1LentGreen/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Beflepa LentGreen";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mycompany.-LentGreen";
+				PRODUCT_BUNDLE_IDENTIFIER = com.har.b3fl3n7gr5n;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

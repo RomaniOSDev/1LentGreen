@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  1LentGreen
 //
-//  Created by Роман Главацкий on 21.02.2026.
+//  Created by Harry Wasser on 21.02.2026.
 //
 
 import UIKit

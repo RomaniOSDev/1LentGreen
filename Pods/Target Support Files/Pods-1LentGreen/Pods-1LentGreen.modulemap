@@ -1,0 +1,6 @@
+framework module Pods_1LentGreen {
+  umbrella header "Pods-1LentGreen-umbrella.h"
+
+  export *
+  module * { export * }
+}
