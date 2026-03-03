@@ -28,7 +28,7 @@ struct DebtListView: View {
 
                 ScrollView {
                     VStack(spacing: 16) {
-                        Text("LentGreen")
+                        Text("Beflepa LentGreen")
                             .font(.largeTitle)
                             .bold()
                             .foregroundStyle(LinearGradient.lentTitleGradient)

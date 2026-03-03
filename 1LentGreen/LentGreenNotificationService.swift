@@ -29,7 +29,7 @@ enum LentGreenNotificationService {
             return
         }
         let content = UNMutableNotificationContent()
-        content.title = "LentGreen"
+        content.title = "Beflepa LentGreen"
         content.body = "Due: \(debt.personName) — \(Int(debt.remainingAmount)) \(debt.currency)"
         content.sound = .default
 
