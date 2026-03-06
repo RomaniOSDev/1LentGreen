@@ -28,13 +28,6 @@ struct DebtListView: View {
 
                 ScrollView {
                     VStack(spacing: 16) {
-                        Text("Beflepa LentGreen")
-                            .font(.largeTitle)
-                            .bold()
-                            .foregroundStyle(LinearGradient.lentTitleGradient)
-                            .frame(maxWidth: .infinity, alignment: .leading)
-                            .padding(.horizontal)
-
                         HStack(spacing: 12) {
                             StatCard(title: "Owed to me", amount: viewModel.totalOwedToMe, icon: "arrow.down.circle.fill")
                             StatCard(title: "I owe", amount: viewModel.totalIOwe, icon: "arrow.up.circle.fill")

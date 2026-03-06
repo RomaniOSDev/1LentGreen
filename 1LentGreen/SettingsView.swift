@@ -11,6 +11,7 @@ struct SettingsView: View {
     @ObservedObject var viewModel: LentGreenViewModel
     @AppStorage("lentgreen_default_currency") private var defaultCurrency: String = "₽"
     @AppStorage("lentgreen_notifications") private var notificationsEnabled: Bool = false
+    @AppStorage("lentgreen_default_due_days") private var defaultDueDays: Int = 7
     @State private var showResetAlert = false
 
     var body: some View {
@@ -36,6 +37,13 @@ struct SettingsView: View {
                                     LentGreenNotificationService.rescheduleAll(debts: [])
                                 }
                             }
+                        Picker("Default due date", selection: $defaultDueDays) {
+                            Text("No default").tag(0)
+                            Text("+7 days").tag(7)
+                            Text("+14 days").tag(14)
+                            Text("+30 days").tag(30)
+                        }
+                        .tint(.lentGreen)
                     } header: {
                         Text("General")
                             .foregroundColor(.lentGreen)

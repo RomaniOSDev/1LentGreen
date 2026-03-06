@@ -59,15 +59,6 @@ struct HomeView: View {
 
     private var headerSection: some View {
         VStack(alignment: .leading, spacing: 4) {
-            Text("Beflepa LentGreen")
-                .font(.system(size: 28, weight: .bold, design: .rounded))
-                .foregroundStyle(
-                    LinearGradient(
-                        colors: [.lentGreen, .lentGreen.opacity(0.8)],
-                        startPoint: .leading,
-                        endPoint: .trailing
-                    )
-                )
             Text(summarySubtitle)
                 .font(.subheadline)
                 .foregroundColor(.gray)

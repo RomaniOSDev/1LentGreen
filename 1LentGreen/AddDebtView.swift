@@ -108,6 +108,22 @@ struct AddDebtView: View {
                             .tint(.lentGreen)
                         }
 
+                        HStack(spacing: 8) {
+                            ForEach([500, 1000, 2000], id: \.self) { preset in
+                                Button("+\(preset)") {
+                                    amount += Double(preset)
+                                }
+                                .font(.caption)
+                                .padding(.horizontal, 10)
+                                .padding(.vertical, 6)
+                                .background(
+                                    RoundedRectangle(cornerRadius: 10)
+                                        .fill(LinearGradient.lentCardGradient)
+                                )
+                                .foregroundColor(.lentGreen)
+                            }
+                        }
+
                         DatePicker("Debt date", selection: $date, displayedComponents: .date)
                             .tint(.lentGreen)
                             .foregroundColor(.white)
@@ -129,6 +145,29 @@ struct AddDebtView: View {
                         TextField("Tags (comma-separated)", text: $tagsString)
                             .textFieldStyle(.roundedBorder)
                             .foregroundColor(.white)
+
+                        HStack(spacing: 8) {
+                            ForEach(["food", "taxi", "rent"], id: \.self) { quick in
+                                Button(quick.capitalized) {
+                                    if !descriptionText.lowercased().contains(quick) {
+                                        descriptionText = descriptionText.isEmpty ? quick.capitalized : "\(descriptionText), \(quick)"
+                                    }
+                                    var existing = tags
+                                    if !existing.contains(where: { $0.lowercased() == quick }) {
+                                        existing.append(quick)
+                                        tagsString = existing.joined(separator: ", ")
+                                    }
+                                }
+                                .font(.caption)
+                                .padding(.horizontal, 10)
+                                .padding(.vertical, 6)
+                                .background(
+                                    RoundedRectangle(cornerRadius: 10)
+                                        .fill(LinearGradient.lentCardGradient)
+                                )
+                                .foregroundColor(.lentGreen)
+                            }
+                        }
 
                         if !tags.isEmpty {
                             ScrollView(.horizontal, showsIndicators: false) {
