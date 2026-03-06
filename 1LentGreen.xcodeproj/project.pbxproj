@@ -296,7 +296,7 @@
 				CURRENT_PROJECT_VERSION = 3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 1LentGreen/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = LentGreen;
+				INFOPLIST_KEY_CFBundleDisplayName = "BalanceBook: Green";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -334,7 +334,7 @@
 				CURRENT_PROJECT_VERSION = 3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 1LentGreen/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = LentGreen;
+				INFOPLIST_KEY_CFBundleDisplayName = "BalanceBook: Green";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
